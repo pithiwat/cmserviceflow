@@ -1,14 +1,6 @@
-<!-- Jquery for exporting the data table -->
-<script type="text/javascript">
-    $(document).ready(function() {
-        var table = $('#dataTb').DataTable();
-        var tt = new $.fn.dataTable.TableTools( table, {
-            sSwfPath: "swf/copy_csv_xls_pdf.swf"
-        });
+@extends('layouts.resultLayout')
 
-        $( tt.fnContainer() ).insertAfter('div.export');
-    });
-</script>
+@section('content')
 
 <div class="export"></div>
 
@@ -57,3 +49,5 @@
         </table>
     </div>
 </div>
+
+@endsection
