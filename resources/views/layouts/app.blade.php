@@ -14,26 +14,14 @@
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.dataTables.min.css">
     <link rel="stylesheet" type="text/css" href="css/dataTables.tableTools.css">
+    <!--Custom Style-->
+    <link rel="stylesheet" type="text/css" href="css/mycustomStyle.css">
     <!--[if IE 8]><script src="js/es5.js"></script><![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/jquery.dataTables.min.js"></script>
     <script src="js/dataTables.tableTools.js"></script>
     <script src="js/selectize.js"></script>
     <script src="js/index.js"></script>
-
-    <style type="text/css">
-        .cm-service-flow .service-group {
-            font-weight: normal;
-            opacity: 0.3;
-            margin: 0 0 0 2px;
-        }
-        .cm-service-flow .service-group::before {
-            content: '(';
-        }
-        .cm-service-flow .service-group::after {
-            content: ')';
-        }
-    </style>
 
 </head>
 <body id="app-layout">
